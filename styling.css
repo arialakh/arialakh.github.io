@@ -1,0 +1,99 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+h2 {
+  color: rgb(14, 103, 14);
+}
+.header {
+   
+    padding-left: 23%;
+        
+}
+
+.headertmp {
+    float: left;
+    padding-top: 10%
+}
+
+.socials {
+    align-items: right;
+}
+
+.upper-right {
+  padding-top: 1%;
+    float: right;
+    padding-right: 33%;
+    padding-top: 3.2%;
+}
+.socials span {
+    margin-inline-start: 1rem;
+    align-self: right;
+}
+
+.menu {
+    clear: both;
+    padding-top: 7%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(14, 103, 14);
+    align-items: right;
+    
+}
+
+.menu span {
+  margin-inline-start: 0.5rem;
+  align-items: right;
+}
+a:link {
+    color: rgb(14, 103, 14);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(14, 103, 14);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(8, 161, 49);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  ion-icon {
+    font-size: 27px;
+  }
+
+  
+a.notmenu:link {
+    color: rgb(9, 9, 9);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a.notmenu:visited {
+    color: rgb(11, 12, 11);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a.notmenu:hover {
+    color: rgb(14, 103, 14);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .body {
+      clear: both;
+    padding-left: 23%;
+    padding-right: 23%
+  }
+
+li {
+  font: medium;
+}
